@@ -42,3 +42,6 @@ WebGLVersion/
 
 # Blender Backup Files
 *.blend1
+
+# Executable
+Undercooked.x86_64
