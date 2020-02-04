@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: a3a657c0b6c604040a9d392a4e82b450
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature.002
+    100002: Cover
+    100004: CoverBone
+    100006: CoverBone.001
+    100008: CoverBone.001_end
+    100010: CoverBone_end
+    100012: //RootNode
+    100014: Page
+    100016: Page.001
+    100018: Page.002
+    100020: Page.003
+    100022: Page.004
+    100024: Page.005
+    100026: Page.006
+    100028: Page.007
+    100030: PageBone0
+    100032: PageBone0_end
+    100034: PageBone1
+    100036: PageBone1_end
+    100038: PageBone2
+    100040: PageBone2_end
+    100042: PageBone3
+    100044: PageBone3_end
+    100046: PageBone4
+    100048: PageBone4_end
+    100050: PageBone5
+    100052: PageBone5_end
+    100054: PageBone6
+    100056: PageBone6_end
+    100058: PageBone7
+    100060: PageBone7_end
+    400000: Armature.002
+    400002: Cover
+    400004: CoverBone
+    400006: CoverBone.001
+    400008: CoverBone.001_end
+    400010: CoverBone_end
+    400012: //RootNode
+    400014: Page
+    400016: Page.001
+    400018: Page.002
+    400020: Page.003
+    400022: Page.004
+    400024: Page.005
+    400026: Page.006
+    400028: Page.007
+    400030: PageBone0
+    400032: PageBone0_end
+    400034: PageBone1
+    400036: PageBone1_end
+    400038: PageBone2
+    400040: PageBone2_end
+    400042: PageBone3
+    400044: PageBone3_end
+    400046: PageBone4
+    400048: PageBone4_end
+    400050: PageBone5
+    400052: PageBone5_end
+    400054: PageBone6
+    400056: PageBone6_end
+    400058: PageBone7
+    400060: PageBone7_end
+    2100000: No Name
+    4300000: Page.007
+    4300002: Page.006
+    4300004: Page.005
+    4300006: Page.004
+    4300008: Page.003
+    4300010: Page.002
+    4300012: Page.001
+    4300014: Page
+    4300016: Cover
+    7400000: TurningPages
+    7400002: TurnFirst
+    7400004: TurnSecond
+    7400006: TurnThird
+    7400008: TurnFourth
+    7400010: Armature.002|TurnFirst
+    7400012: Armature.002|TurnFourth
+    7400014: Armature.002|TurningPages
+    7400016: Armature.002|TurnSecond
+    7400018: Armature.002|TurnThird
+    9500000: //RootNode
+    13700000: Cover
+    13700002: Page
+    13700004: Page.001
+    13700006: Page.002
+    13700008: Page.003
+    13700010: Page.004
+    13700012: Page.005
+    13700014: Page.006
+    13700016: Page.007
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

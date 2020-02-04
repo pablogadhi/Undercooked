@@ -1,0 +1,192 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/2f3b2646/
+BaseFurniture	Furniture/BaseFurniture.cs	/^    public abstract class BaseFurniture : MonoBehaviour$/;"	c	namespace:Furniture
+ChangeFrontFurniture	Player/ChefBehaviour.cs	/^        private void ChangeFrontFurniture(BaseFurniture furniture)$/;"	m	class:Player.ChefBehaviour	file:
+ChangeHighlight	Player/ObjectObserver.cs	/^        private void ChangeHighlight(Transform parent, Color color)$/;"	m	class:Player.ObjectObserver	file:
+ChefBehaviour	Player/ChefBehaviour.cs	/^    public class ChefBehaviour : MonoBehaviour$/;"	c	namespace:Player
+ChoppingTable	Furniture/ChoppingTable.cs	/^    public class ChoppingTable : Table, IActionFurniture$/;"	c	namespace:Furniture
+CookingPot	Liftables/CookingPot.cs	/^    public class CookingPot : LiftableObject$/;"	c	namespace:Liftables
+Enter	Player/PlayerState/IPlayerState.cs	/^        void Enter(ChefBehaviour chef);$/;"	m	interface:Player.IPlayerState
+Enter	Player/PlayerState/IdleState.cs	/^        public void Enter(ChefBehaviour chef)$/;"	m	class:Player.IdleState
+Exit	Player/PlayerState/IPlayerState.cs	/^        void Exit();$/;"	m	interface:Player.IPlayerState
+Exit	Player/PlayerState/IdleState.cs	/^        public void Exit()$/;"	m	class:Player.IdleState
+FindFurnitureAction	Player/ObjectObserver.cs	/^        public delegate void FindFurnitureAction(BaseFurniture furniture);$/;"	m	class:Player.ObjectObserver
+FixedUpdate	Player/ChefBehaviour.cs	/^        void FixedUpdate()$/;"	m	class:Player.ChefBehaviour	file:
+Furniture	Furniture/BaseFurniture.cs	/^namespace Furniture$/;"	n
+Furniture	Furniture/ChoppingTable.cs	/^namespace Furniture$/;"	n
+Furniture	Furniture/IActionFurniture.cs	/^namespace Furniture$/;"	n
+Furniture	Furniture/IngredientSpawner.cs	/^namespace Furniture$/;"	n
+Furniture	Furniture/PlateSpawner.cs	/^namespace Furniture$/;"	n
+Furniture	Furniture/ServingStation.cs	/^namespace Furniture$/;"	n
+Furniture	Furniture/Stove.cs	/^namespace Furniture$/;"	n
+Furniture	Furniture/Table.cs	/^namespace Furniture$/;"	n
+Furniture	Furniture/TrashBox.cs	/^namespace Furniture$/;"	n
+GameBehaviours	GameBehaviours/GameClock.cs	/^namespace GameBehaviours$/;"	n
+GameBehaviours	GameBehaviours/Recipe.cs	/^namespace GameBehaviours$/;"	n
+GameClock	GameBehaviours/GameClock.cs	/^    public class GameClock : MonoBehaviour$/;"	c	namespace:GameBehaviours
+HandleInput	Player/PlayerState/IPlayerState.cs	/^        void HandleInput(Input input);$/;"	m	interface:Player.IPlayerState
+HandleInput	Player/PlayerState/IdleState.cs	/^        public void HandleInput(Input input)$/;"	m	class:Player.IdleState
+IActionFurniture	Furniture/IActionFurniture.cs	/^    public interface IActionFurniture$/;"	i	namespace:Furniture
+IActionFurniture.interact	Furniture/ChoppingTable.cs	/^        Object IActionFurniture.interact(Transform hands)$/;"	m	class:Furniture.ChoppingTable	file:
+IActionFurniture.interact	Furniture/IngredientSpawner.cs	/^        Object IActionFurniture.interact(Transform hands)$/;"	m	class:Furniture.IngredientSpawner	file:
+IActionFurniture.interact	Furniture/PlateSpawner.cs	/^        Object IActionFurniture.interact(Transform hands)$/;"	m	class:Furniture.PlateSpawner	file:
+IPlayerState	Player/PlayerState/IPlayerState.cs	/^    public interface IPlayerState$/;"	i	namespace:Player
+IdleState	Player/PlayerState/IdleState.cs	/^        IdleState(ChefBehaviour chef){$/;"	m	class:Player.IdleState	file:
+IdleState	Player/PlayerState/IdleState.cs	/^    public class IdleState: IPlayerState$/;"	c	namespace:Player
+Ingredient	Liftables/Ingredient.cs	/^    public class Ingredient : LiftableObject$/;"	c	namespace:Liftables
+IngredientName	Liftables/Ingredient.cs	/^public enum IngredientName { Tomato, Onion, Mushroom };$/;"	g
+IngredientSpawner	Furniture/IngredientSpawner.cs	/^    public class IngredientSpawner : BaseFurniture, IActionFurniture$/;"	c	namespace:Furniture
+LiftableObject	Liftables/LiftableObject.cs	/^    public class LiftableObject : MonoBehaviour$/;"	c	namespace:Liftables
+Liftables	Liftables/CookingPot.cs	/^namespace Liftables$/;"	n
+Liftables	Liftables/Ingredient.cs	/^namespace Liftables$/;"	n
+Liftables	Liftables/LiftableObject.cs	/^namespace Liftables$/;"	n
+Liftables	Liftables/Plate.cs	/^namespace Liftables$/;"	n
+Mushroom	Liftables/Ingredient.cs	/^public enum IngredientName { Tomato, Onion, Mushroom };$/;"	e	enum:IngredientName	file:
+ObjectObserver	Player/ObjectObserver.cs	/^    public class ObjectObserver : MonoBehaviour$/;"	c	namespace:Player
+OnDestroy	Player/ChefBehaviour.cs	/^        void OnDestroy()$/;"	m	class:Player.ChefBehaviour	file:
+OnFindFurniture	Player/ObjectObserver.cs	/^        public event FindFurnitureAction OnFindFurniture;$/;"	E	class:Player.ObjectObserver
+Onion	Liftables/Ingredient.cs	/^public enum IngredientName { Tomato, Onion, Mushroom };$/;"	e	enum:IngredientName	file:
+Plate	Liftables/Plate.cs	/^    public class Plate : LiftableObject$/;"	c	namespace:Liftables
+PlateSpawner	Furniture/PlateSpawner.cs	/^    public class PlateSpawner : Table, IActionFurniture$/;"	c	namespace:Furniture
+Player	Player/ChefBehaviour.cs	/^namespace Player$/;"	n
+Player	Player/ObjectObserver.cs	/^namespace Player$/;"	n
+Player	Player/PlayerState/IPlayerState.cs	/^namespace Player$/;"	n
+Player	Player/PlayerState/IdleState.cs	/^namespace Player$/;"	n
+Recipe	GameBehaviours/Recipe.cs	/^    public class Recipe : MonoBehaviour$/;"	c	namespace:GameBehaviours
+ServingStation	Furniture/ServingStation.cs	/^    public class ServingStation : BaseFurniture$/;"	c	namespace:Furniture
+Start	Furniture/BaseFurniture.cs	/^        protected virtual void Start ()$/;"	m	class:Furniture.BaseFurniture
+Start	Furniture/ChoppingTable.cs	/^        protected override void Start()$/;"	m	class:Furniture.ChoppingTable
+Start	Furniture/PlateSpawner.cs	/^        protected override void Start()$/;"	m	class:Furniture.PlateSpawner
+Start	Furniture/ServingStation.cs	/^        protected override void Start()$/;"	m	class:Furniture.ServingStation
+Start	Furniture/Table.cs	/^        protected virtual void Start ()$/;"	m	class:Furniture.Table
+Start	GameBehaviours/GameClock.cs	/^        void Start ()$/;"	m	class:GameBehaviours.GameClock	file:
+Start	GameBehaviours/Recipe.cs	/^        void Start ()$/;"	m	class:GameBehaviours.Recipe	file:
+Start	Liftables/CookingPot.cs	/^        void Start()$/;"	m	class:Liftables.CookingPot	file:
+Start	Liftables/Plate.cs	/^        void Start()$/;"	m	class:Liftables.Plate	file:
+Start	Player/ChefBehaviour.cs	/^        void Start ()$/;"	m	class:Player.ChefBehaviour	file:
+Start	Player/ObjectObserver.cs	/^        void Start()$/;"	m	class:Player.ObjectObserver	file:
+Stove	Furniture/Stove.cs	/^    public class Stove : Table$/;"	c	namespace:Furniture
+Table	Furniture/Table.cs	/^    public class Table : BaseFurniture$/;"	c	namespace:Furniture
+Tomato	Liftables/Ingredient.cs	/^public enum IngredientName { Tomato, Onion, Mushroom };$/;"	e	enum:IngredientName	file:
+TrashBox	Furniture/TrashBox.cs	/^    public class TrashBox : BaseFurniture$/;"	c	namespace:Furniture
+Update	Furniture/ChoppingTable.cs	/^        void Update()$/;"	m	class:Furniture.ChoppingTable	file:
+Update	Furniture/PlateSpawner.cs	/^        void Update()$/;"	m	class:Furniture.PlateSpawner	file:
+Update	Furniture/ServingStation.cs	/^        void Update()$/;"	m	class:Furniture.ServingStation	file:
+Update	Furniture/Stove.cs	/^        void Update()$/;"	m	class:Furniture.Stove	file:
+Update	GameBehaviours/GameClock.cs	/^        void Update ()$/;"	m	class:GameBehaviours.GameClock	file:
+Update	GameBehaviours/Recipe.cs	/^        void Update ()$/;"	m	class:GameBehaviours.Recipe	file:
+Update	Player/ObjectObserver.cs	/^        void Update ()$/;"	m	class:Player.ObjectObserver	file:
+Update	Player/PlayerState/IPlayerState.cs	/^        void Update();$/;"	m	interface:Player.IPlayerState
+Update	Player/PlayerState/IdleState.cs	/^        public void Update()$/;"	m	class:Player.IdleState
+addIngredient	Furniture/Stove.cs	/^        public void addIngredient(IngredientName name)$/;"	m	class:Furniture.Stove
+anim	Player/ChefBehaviour.cs	/^        private Animator anim;$/;"	f	class:Player.ChefBehaviour	file:
+board	Furniture/ChoppingTable.cs	/^        private Transform board;$/;"	f	class:Furniture.ChoppingTable	file:
+body	Player/ChefBehaviour.cs	/^        private Rigidbody body;$/;"	f	class:Player.ChefBehaviour	file:
+burn	Liftables/CookingPot.cs	/^        public void burn()$/;"	m	class:Liftables.CookingPot
+burned	Furniture/Stove.cs	/^        private bool burned = false;$/;"	f	class:Furniture.Stove	file:
+burned	Liftables/CookingPot.cs	/^        private bool burned;$/;"	f	class:Liftables.CookingPot	file:
+burnedColor	Liftables/CookingPot.cs	/^        private Color burnedColor;$/;"	f	class:Liftables.CookingPot	file:
+burningProgress	Furniture/Stove.cs	/^        private float burningProgress;$/;"	f	class:Furniture.Stove	file:
+checkOrder	Furniture/ServingStation.cs	/^        public void checkOrder(IngredientName[] ingredients)$/;"	m	class:Furniture.ServingStation
+chopp	Liftables/Ingredient.cs	/^        public float chopp(float maxTime)$/;"	m	class:Liftables.Ingredient
+chopped	Liftables/Ingredient.cs	/^        private bool chopped = false;$/;"	f	class:Liftables.Ingredient	file:
+choppedObject	Liftables/Ingredient.cs	/^        public GameObject choppedObject;$/;"	f	class:Liftables.Ingredient
+choppedState	Liftables/Ingredient.cs	/^        private float choppedState = 0;$/;"	f	class:Liftables.Ingredient	file:
+chopping	Player/ChefBehaviour.cs	/^        private bool chopping;$/;"	f	class:Player.ChefBehaviour	file:
+choppingTime	Furniture/ChoppingTable.cs	/^        public float choppingTime;$/;"	f	class:Furniture.ChoppingTable
+cook	Liftables/CookingPot.cs	/^        public void cook()$/;"	m	class:Liftables.CookingPot
+cooked	Liftables/CookingPot.cs	/^        private bool cooked;$/;"	f	class:Liftables.CookingPot	file:
+cooking	Furniture/Stove.cs	/^        private bool cooking;$/;"	f	class:Furniture.Stove	file:
+empty	Liftables/CookingPot.cs	/^        public void empty()$/;"	m	class:Liftables.CookingPot
+end	GameBehaviours/Recipe.cs	/^        private Vector2 end;$/;"	f	class:GameBehaviours.Recipe	file:
+extraPoints	GameBehaviours/Recipe.cs	/^        private int extraPoints;$/;"	f	class:GameBehaviours.Recipe	file:
+failure	GameBehaviours/Recipe.cs	/^        public void failure()$/;"	m	class:GameBehaviours.Recipe
+fill	Liftables/CookingPot.cs	/^        public bool fill(IngredientName name)$/;"	m	class:Liftables.CookingPot
+fill	Liftables/Plate.cs	/^        public void fill(List<IngredientName> soupIngrs)$/;"	m	class:Liftables.Plate
+filled	Liftables/Plate.cs	/^        private bool filled = false;$/;"	f	class:Liftables.Plate	file:
+frontFurniture	Player/ChefBehaviour.cs	/^        private BaseFurniture frontFurniture;$/;"	f	class:Player.ChefBehaviour	file:
+frontFurniture	Player/ObjectObserver.cs	/^        private BaseFurniture frontFurniture;$/;"	f	class:Player.ObjectObserver	file:
+getExtraPoints	GameBehaviours/Recipe.cs	/^        public int getExtraPoints()$/;"	m	class:GameBehaviours.Recipe
+getID	Furniture/BaseFurniture.cs	/^        public int getID()$/;"	m	class:Furniture.BaseFurniture
+getIngredient	GameBehaviours/Recipe.cs	/^        public IngredientName getIngredient()$/;"	m	class:GameBehaviours.Recipe
+getOffset	Liftables/LiftableObject.cs	/^        public Vector3 getOffset()$/;"	m	class:Liftables.LiftableObject
+getTopObject	Furniture/Table.cs	/^        public LiftableObject getTopObject()$/;"	m	class:Furniture.Table
+hands	Player/ChefBehaviour.cs	/^        private Transform hands;$/;"	f	class:Player.ChefBehaviour	file:
+hasLiftable	Furniture/Table.cs	/^        public bool hasLiftable()$/;"	m	class:Furniture.Table
+higlightColor	Player/ObjectObserver.cs	/^        public Color higlightColor;$/;"	f	class:Player.ObjectObserver
+id	Furniture/BaseFurniture.cs	/^        protected int id;$/;"	f	class:Furniture.BaseFurniture
+ingredient	Furniture/IngredientSpawner.cs	/^        public Object ingredient;$/;"	f	class:Furniture.IngredientSpawner
+ingredient	GameBehaviours/Recipe.cs	/^        private IngredientName ingredient;$/;"	f	class:GameBehaviours.Recipe	file:
+ingredientName	Liftables/Ingredient.cs	/^        public IngredientName ingredientName;$/;"	f	class:Liftables.Ingredient
+ingredientSprites	Furniture/ServingStation.cs	/^        public Sprite[] ingredientSprites;$/;"	f	class:Furniture.ServingStation
+ingredients	Liftables/CookingPot.cs	/^        private List<IngredientName> ingredients;$/;"	f	class:Liftables.CookingPot	file:
+ingredients	Liftables/Plate.cs	/^        private IngredientName[] ingredients;$/;"	f	class:Liftables.Plate	file:
+interact	Furniture/IActionFurniture.cs	/^        Object interact(Transform hands);$/;"	m	interface:Furniture.IActionFurniture
+isEmpty	Liftables/CookingPot.cs	/^        public bool isEmpty()$/;"	m	class:Liftables.CookingPot
+knife	Furniture/ChoppingTable.cs	/^        private Transform knife;$/;"	f	class:Furniture.ChoppingTable	file:
+lastChoppedValue	Furniture/ChoppingTable.cs	/^        private float lastChoppedValue = 0f;$/;"	f	class:Furniture.ChoppingTable	file:
+lastRoundedSecond	GameBehaviours/GameClock.cs	/^        private int lastRoundedSecond;$/;"	f	class:GameBehaviours.GameClock	file:
+lift	Liftables/LiftableObject.cs	/^        public void lift(Transform newparent)$/;"	m	class:Liftables.LiftableObject
+liftTopObject	Furniture/Table.cs	/^        public LiftableObject liftTopObject(Transform newparent)$/;"	m	class:Furniture.Table
+liftable	Player/ChefBehaviour.cs	/^        private LiftableObject liftable;$/;"	f	class:Player.ChefBehaviour	file:
+lookForLiftable	Furniture/Table.cs	/^        private LiftableObject lookForLiftable(GameObject furniture)$/;"	m	class:Furniture.Table	file:
+mDirection	Player/ChefBehaviour.cs	/^        private Vector3 mDirection;$/;"	f	class:Player.ChefBehaviour	file:
+minutes	GameBehaviours/GameClock.cs	/^        private int minutes;$/;"	f	class:GameBehaviours.GameClock	file:
+minutesDisplay	GameBehaviours/GameClock.cs	/^        public Text minutesDisplay;$/;"	f	class:GameBehaviours.GameClock
+move	GameBehaviours/Recipe.cs	/^        public void move()$/;"	m	class:GameBehaviours.Recipe
+moveToNext	GameBehaviours/Recipe.cs	/^        private bool moveToNext;$/;"	f	class:GameBehaviours.Recipe	file:
+movementSpeed	GameBehaviours/Recipe.cs	/^        public float movementSpeed;$/;"	f	class:GameBehaviours.Recipe
+newChoppedValue	Furniture/ChoppingTable.cs	/^        private float newChoppedValue = 0f;$/;"	f	class:Furniture.ChoppingTable	file:
+offset	Liftables/LiftableObject.cs	/^        public Vector3 offset;$/;"	f	class:Liftables.LiftableObject
+orderFailed	Furniture/ServingStation.cs	/^        public void orderFailed(Recipe recipe)$/;"	m	class:Furniture.ServingStation
+plate	Furniture/PlateSpawner.cs	/^        public Object plate;$/;"	f	class:Furniture.PlateSpawner
+plates	Furniture/PlateSpawner.cs	/^        private Stack<LiftableObject> plates;$/;"	f	class:Furniture.PlateSpawner	file:
+platespawner	Furniture/ServingStation.cs	/^        public PlateSpawner platespawner;$/;"	f	class:Furniture.ServingStation
+playerHands	Furniture/ChoppingTable.cs	/^        private Transform playerHands;$/;"	f	class:Furniture.ChoppingTable	file:
+points	Furniture/ServingStation.cs	/^        private int points;$/;"	f	class:Furniture.ServingStation	file:
+pointsText	Furniture/ServingStation.cs	/^        public Text pointsText;$/;"	f	class:Furniture.ServingStation
+progress	Furniture/Stove.cs	/^        private float progress;$/;"	f	class:Furniture.Stove	file:
+progressBar	Furniture/ChoppingTable.cs	/^        public Image progressBar;$/;"	f	class:Furniture.ChoppingTable
+progressBar	Furniture/Stove.cs	/^        public Image progressBar;$/;"	f	class:Furniture.Stove
+putDown	Liftables/CookingPot.cs	/^        public override bool putDown(BaseFurniture furniture)$/;"	m	class:Liftables.CookingPot
+putDown	Liftables/CookingPot.cs	/^        public override bool putDown(Table table)$/;"	m	class:Liftables.CookingPot
+putDown	Liftables/Ingredient.cs	/^        public override bool putDown(Table table)$/;"	m	class:Liftables.Ingredient
+putDown	Liftables/LiftableObject.cs	/^        public virtual bool putDown(BaseFurniture furniture)$/;"	m	class:Liftables.LiftableObject
+putDown	Liftables/LiftableObject.cs	/^        public virtual bool putDown(Table table)$/;"	m	class:Liftables.LiftableObject
+putDown	Liftables/Plate.cs	/^        public override bool putDown(BaseFurniture furniture)$/;"	m	class:Liftables.Plate
+recipePrefab	Furniture/ServingStation.cs	/^        public Object recipePrefab;$/;"	f	class:Furniture.ServingStation
+recipeTime	GameBehaviours/Recipe.cs	/^        public float recipeTime;$/;"	f	class:GameBehaviours.Recipe
+recipes	Furniture/ServingStation.cs	/^        private List<Recipe> recipes;$/;"	f	class:Furniture.ServingStation	file:
+rectTrans	GameBehaviours/Recipe.cs	/^        private RectTransform rectTrans;$/;"	f	class:GameBehaviours.Recipe	file:
+seconds	GameBehaviours/GameClock.cs	/^        private float seconds;$/;"	f	class:GameBehaviours.GameClock	file:
+secondsDisplay	GameBehaviours/GameClock.cs	/^        public Text secondsDisplay;$/;"	f	class:GameBehaviours.GameClock
+setEndPosition	GameBehaviours/Recipe.cs	/^        public void setEndPosition(Vector2 position)$/;"	m	class:GameBehaviours.Recipe
+setIngredient	GameBehaviours/Recipe.cs	/^        public void setIngredient(IngredientName name)$/;"	m	class:GameBehaviours.Recipe
+setOffset	Liftables/LiftableObject.cs	/^        public void setOffset(Vector3 offsetVector)$/;"	m	class:Liftables.LiftableObject
+setServingStation	GameBehaviours/Recipe.cs	/^        public void setServingStation(ServingStation station)$/;"	m	class:GameBehaviours.Recipe
+setTopObject	Furniture/Table.cs	/^        public void setTopObject(LiftableObject topObject)$/;"	m	class:Furniture.Table
+soup	Liftables/CookingPot.cs	/^        private Transform soup;$/;"	f	class:Liftables.CookingPot	file:
+soup	Liftables/Plate.cs	/^        private Transform soup;$/;"	f	class:Liftables.Plate	file:
+soupColor	Liftables/CookingPot.cs	/^        private Color soupColor;$/;"	f	class:Liftables.CookingPot	file:
+soupSprites	Furniture/ServingStation.cs	/^        public Sprite[] soupSprites;$/;"	f	class:Furniture.ServingStation
+spawnContainer	Furniture/ServingStation.cs	/^        private Transform spawnContainer;$/;"	f	class:Furniture.ServingStation	file:
+spawnPlate	Furniture/PlateSpawner.cs	/^        public void spawnPlate()$/;"	m	class:Furniture.PlateSpawner
+spawnPosX	Furniture/ServingStation.cs	/^        private float spawnPosX;$/;"	f	class:Furniture.ServingStation	file:
+spawnRecipe	Furniture/ServingStation.cs	/^        private void spawnRecipe()$/;"	m	class:Furniture.ServingStation	file:
+spawnTime	Furniture/ServingStation.cs	/^        public float spawnTime;$/;"	f	class:Furniture.ServingStation
+spawnTimer	Furniture/ServingStation.cs	/^        private float spawnTimer;$/;"	f	class:Furniture.ServingStation	file:
+speed	Player/ChefBehaviour.cs	/^        public float speed;$/;"	f	class:Player.ChefBehaviour
+startTimer	GameBehaviours/Recipe.cs	/^        private bool startTimer;$/;"	f	class:GameBehaviours.Recipe	file:
+startWith	Furniture/PlateSpawner.cs	/^        public int startWith;$/;"	f	class:Furniture.PlateSpawner
+state	Player/ChefBehaviour.cs	/^        private IPlayerState state;$/;"	f	class:Player.ChefBehaviour	file:
+station	GameBehaviours/Recipe.cs	/^        private ServingStation station;$/;"	f	class:GameBehaviours.Recipe	file:
+success	GameBehaviours/Recipe.cs	/^        public void success()$/;"	m	class:GameBehaviours.Recipe
+timeInSeconds	GameBehaviours/GameClock.cs	/^        public float timeInSeconds;$/;"	f	class:GameBehaviours.GameClock
+timer	GameBehaviours/Recipe.cs	/^        private float timer;$/;"	f	class:GameBehaviours.Recipe	file:
+timerProgress	GameBehaviours/Recipe.cs	/^        private Image timerProgress;$/;"	f	class:GameBehaviours.Recipe	file:
+topObject	Furniture/Table.cs	/^        protected LiftableObject topObject;$/;"	f	class:Furniture.Table
